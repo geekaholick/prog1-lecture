@@ -12,7 +12,7 @@ int main(void) {
     welcome("Jennyca");
     welcome("Ramil");
     welcome("Ace");
-    
+
     num1 = get_number("Enter first number");
     num2 = get_number("Enter second number");
 
@@ -20,10 +20,6 @@ int main(void) {
 
     result = get_product(num1, num2);
     printf("%d * %d = %d\n", num1, num2, result);
-
-    
-
-    
 
     return 0;
 }
